@@ -39,7 +39,7 @@ const Register = () => {
           <option value="BaseCommander">BaseCommander</option>
           <option value="LogisticsOfficer">LogisticsOfficer</option>
         </select>
-        <input placeholder="Assigned Base ID (optional)" value={assignedBase} onChange={(e) => setAssignedBase(e.target.value)} />
+        {/* <input placeholder="Assigned Base ID (optional)" value={assignedBase} onChange={(e) => setAssignedBase(e.target.value)} /> */}
         <button type="submit">Register</button>
       </form>
       {error && <p style={{ color: "red" }}>{error}</p>}
